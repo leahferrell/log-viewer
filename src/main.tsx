@@ -3,7 +3,10 @@ import { createRoot } from 'react-dom/client'
 import { HashRouter as Router } from 'react-router'
 
 import { store } from './stores/store'
-import App from './App'
+import App from './app/App.tsx'
+
+import './styles/globals.css'
+import './root.css'
 
 const container = document.getElementById('root')
 
